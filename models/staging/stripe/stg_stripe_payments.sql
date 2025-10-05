@@ -1,11 +1,8 @@
 select
     id as payment_id,
-    orderid as order_id,
-    paymentmethod as payment_method,
+    order_id as order_id,
+    payment_method as payment_method,
     status,
-
-    -- amount is stored in cents, convert it to dollars
-    amount / 100 as amount,
-    created as created_at
-
-from raw.stripe.payment 
+    amount / 100 as amount, -- amount is stored in cents, convert it to dollars
+    batched_at as created_at
+from {{source('stripe', 'payment')}}
