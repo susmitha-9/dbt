@@ -1,4 +1,4 @@
-Welcome to new dbt project!
+DBT project practice scripts!
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
