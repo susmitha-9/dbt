@@ -1,6 +1,6 @@
 DBT project practice scripts!
 
-### Resources:
+## Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
